@@ -1,0 +1,32 @@
+---
+title: Contact
+permalink: /contact/
+intro: Keep contact information centralized in the data files so it remains easy to update later.
+---
+{% assign profile = site.data.profile %}
+{% assign links = site.data.links %}
+
+<div class="contact-grid">
+  <article class="info-card">
+    <h3>Email</h3>
+    <p><a href="mailto:{{ profile.email }}">{{ profile.email }}</a></p>
+  </article>
+  <article class="info-card">
+    <h3>Google Scholar</h3>
+    <p><a href="{{ links.scholar }}">Scholar profile</a></p>
+  </article>
+  <article class="info-card">
+    <h3>ORCID</h3>
+    <p><a href="{{ links.orcid }}">{{ links.orcid }}</a></p>
+  </article>
+  <article class="info-card">
+    <h3>GitHub</h3>
+    <p><a href="{{ links.github }}">{{ links.github }}</a></p>
+  </article>
+</div>
+
+## Affiliations
+
+{% for affiliation in profile.affiliations %}
+- {{ affiliation }}
+{% endfor %}

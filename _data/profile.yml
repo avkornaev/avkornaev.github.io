@@ -1,0 +1,39 @@
+name: Alexei Kornaev
+title: Research Scientist in AI, Computer Vision, and Medical Robotics
+affiliations:
+  - "Placeholder Lab of Medical AI, Placeholder University"
+  - "Affiliated Researcher, Placeholder Robotics Institute"
+location: Moscow, Russia
+email: alexei.kornaev@example.com
+photo: /assets/img/profile-placeholder.svg
+research_interests:
+  - Computer vision for clinical decision support
+  - Foundation models for medical imaging
+  - Surgical and interventional robotics
+  - Multimodal learning for healthcare
+  - Reliable AI for real-world deployment
+bio_short: >
+  Alexei Kornaev is a researcher working at the intersection of computer vision,
+  machine learning, medical AI, and robotics. His work focuses on clinically useful
+  multimodal models, trustworthy evaluation, and interactive systems that connect
+  perception with action in healthcare settings.
+research_agenda:
+  - title: Robust perception in clinical environments
+    text: >
+      Building computer vision systems that remain reliable under domain shift,
+      limited labels, and heterogeneous acquisition conditions.
+  - title: Multimodal medical foundation models
+    text: >
+      Combining images, reports, signals, and structured metadata to support
+      diagnosis, planning, and longitudinal patient modeling.
+  - title: Learning for embodied medical systems
+    text: >
+      Connecting vision, control, and human interaction for assistive and
+      interventional robotic systems.
+education:
+  - degree: PhD in Computer Science
+    institution: Placeholder University
+    year: 2026
+  - degree: MSc in Applied Mathematics
+    institution: Placeholder Institute of Technology
+    year: 2022

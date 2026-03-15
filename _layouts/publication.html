@@ -1,0 +1,20 @@
+<div class="publication-item">
+  <div class="publication-citation">{{ reference }}</div>
+  <div class="publication-links">
+    {% if entry.paper %}
+      <a href="{{ entry.paper }}">Paper</a>
+    {% endif %}
+    {% if entry.code %}
+      <a href="{{ entry.code }}">Code</a>
+    {% endif %}
+    {% if entry.project %}
+      <a href="{{ entry.project }}">Project</a>
+    {% endif %}
+    {% if entry.slides %}
+      <a href="{{ entry.slides }}">Slides</a>
+    {% endif %}
+    {% if entry.dataset %}
+      <a href="{{ entry.dataset }}">Dataset</a>
+    {% endif %}
+  </div>
+</div>

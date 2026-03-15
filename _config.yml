@@ -1,0 +1,42 @@
+title: Alexei Kornaev
+description: Personal academic website of Alexei Kornaev
+url: "https://avkornaev.github.io"
+baseurl: ""
+lang: en
+timezone: Europe/Moscow
+
+theme: minima
+plugins:
+  - jekyll-scholar
+
+markdown: kramdown
+permalink: pretty
+
+scholar:
+  style: apa
+  locale: en
+  source: ./
+  bibliography: bibliography/publications.bib
+  bibliography_template: publication
+  replace_strings: true
+  query: "@*"
+  group_by: year
+  group_order: descending
+  sort_by: year,month
+  order: descending
+
+collections:
+  pages:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
