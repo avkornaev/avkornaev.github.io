@@ -5,6 +5,7 @@ intro: Keep contact information centralized in the data files so it remains easy
 ---
 {% assign profile = site.data.profile %}
 {% assign links = site.data.links %}
+{% assign sources = site.data.publication_sources %}
 
 <div class="contact-grid">
   <article class="info-card">
@@ -22,6 +23,14 @@ intro: Keep contact information centralized in the data files so it remains easy
   <article class="info-card">
     <h3>GitHub</h3>
     <p><a href="{{ links.github }}">{{ links.github }}</a></p>
+  </article>
+  <article class="info-card">
+    <h3>Scopus Author ID</h3>
+    <p>{{ sources.scopus_author_id }}</p>
+  </article>
+  <article class="info-card">
+    <h3>ResearcherID</h3>
+    <p>{{ sources.researcher_id }}</p>
   </article>
 </div>
 

@@ -1,0 +1,1510 @@
+{
+  "generated_at": "2026-03-15T12:50:22Z",
+  "source": "ORCID",
+  "items": [
+    {
+      "key": "10.1109/access.2025.3566772",
+      "title": "Uncertainty Estimation in Cardio Landmark Detection and Heart Disease Diagnosis on Chest X-Ray Images",
+      "year": 2025,
+      "month": null,
+      "day": null,
+      "type": "journal-article",
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2025.3566772",
+      "url": "https://doi.org/10.1109/access.2025.3566772",
+      "paper": "https://doi.org/10.1109/access.2025.3566772",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "Dmitry",
+          "family": "Lvov",
+          "full": "Lvov, Dmitry"
+        },
+        {
+          "given": "Ivan",
+          "family": "Stebakov",
+          "full": "Stebakov, Ivan"
+        },
+        {
+          "given": "Alexei",
+          "family": "Kornaev",
+          "full": "Kornaev, Alexei"
+        },
+        {
+          "given": "Ilya",
+          "family": "Pershin",
+          "full": "Pershin, Ilya"
+        },
+        {
+          "given": "Tamerlan",
+          "family": "Mustafaev",
+          "full": "Mustafaev, Tamerlan"
+        },
+        {
+          "given": "Danil",
+          "family": "Afonchikov",
+          "full": "Afonchikov, Danil"
+        },
+        {
+          "given": "Ramil",
+          "family": "Kuleev",
+          "full": "Kuleev, Ramil"
+        },
+        {
+          "given": "Iskander",
+          "family": "Bariev",
+          "full": "Bariev, Iskander"
+        },
+        {
+          "given": "Bulat",
+          "family": "Ibragimov",
+          "full": "Ibragimov, Bulat"
+        }
+      ],
+      "entry_type": "article",
+      "bibtex_key": "lvov2025uncertainty-estimation-in-cardio-landmar",
+      "category": "publication"
+    },
+    {
+      "key": "10.1109/access.2024.3524116",
+      "title": "Automatic Calculation of Cardiometric Coefficients on Chest X-Ray Images",
+      "year": 2025,
+      "month": null,
+      "day": null,
+      "type": "journal-article",
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2024.3524116",
+      "url": "https://doi.org/10.1109/access.2024.3524116",
+      "paper": "https://doi.org/10.1109/access.2024.3524116",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "Alexey",
+          "family": "Kornaev",
+          "full": "Kornaev, Alexey"
+        },
+        {
+          "given": "Dmitry",
+          "family": "Lvov",
+          "full": "Lvov, Dmitry"
+        },
+        {
+          "given": "Ilya",
+          "family": "Pershin",
+          "full": "Pershin, Ilya"
+        },
+        {
+          "given": "Semen",
+          "family": "Kiselev",
+          "full": "Kiselev, Semen"
+        },
+        {
+          "given": "Danil",
+          "family": "Afonchikov",
+          "full": "Afonchikov, Danil"
+        },
+        {
+          "given": "Iskander",
+          "family": "Bariev",
+          "full": "Bariev, Iskander"
+        },
+        {
+          "given": "Bulat",
+          "family": "Ibragimov",
+          "full": "Ibragimov, Bulat"
+        }
+      ],
+      "entry_type": "article",
+      "bibtex_key": "kornaev2025automatic-calculation-of-cardiometric-co",
+      "category": "publication"
+    },
+    {
+      "key": "10.36227/techrxiv.172840607.74914650/v1",
+      "title": "Approaching in vivo blood count tests with capillaroscopy and deep learning",
+      "year": 2024,
+      "month": 10,
+      "day": 8,
+      "type": "preprint",
+      "venue": "",
+      "doi": "10.36227/techrxiv.172840607.74914650/v1",
+      "url": "https://doi.org/10.36227/techrxiv.172840607.74914650/v1",
+      "paper": "https://doi.org/10.36227/techrxiv.172840607.74914650/v1",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "Alexei",
+          "family": "Kornaev",
+          "full": "Kornaev, Alexei"
+        },
+        {
+          "given": "Irina",
+          "family": "Makovik",
+          "full": "Makovik, Irina"
+        },
+        {
+          "given": "Elena",
+          "family": "Kornaeva",
+          "full": "Kornaeva, Elena"
+        },
+        {
+          "given": "Mikhail",
+          "family": "Volkov",
+          "full": "Volkov, Mikhail"
+        },
+        {
+          "given": "Nikita",
+          "family": "Margaryants",
+          "full": "Margaryants, Nikita"
+        },
+        {
+          "given": "Elena",
+          "family": "Potapova",
+          "full": "Potapova, Elena"
+        },
+        {
+          "given": "Ivan",
+          "family": "Stebakov",
+          "full": "Stebakov, Ivan"
+        },
+        {
+          "given": "Ivan",
+          "family": "Fisyun",
+          "full": "Fisyun, Ivan"
+        },
+        {
+          "given": "Danil",
+          "family": "Afonchikov",
+          "full": "Afonchikov, Danil"
+        },
+        {
+          "given": "Ilya",
+          "family": "Pershin",
+          "full": "Pershin, Ilya"
+        },
+        {
+          "given": "Viktor",
+          "family": "Dremin",
+          "full": "Dremin, Viktor"
+        },
+        {
+          "given": "Bulat",
+          "family": "Ibragimov",
+          "full": "Ibragimov, Bulat"
+        },
+        {
+          "given": "Ramil",
+          "family": "Kuleev",
+          "full": "Kuleev, Ramil"
+        },
+        {
+          "given": "Tigran",
+          "family": "Gevorkyan",
+          "full": "Gevorkyan, Tigran"
+        },
+        {
+          "given": "Andrey",
+          "family": "Dunaev",
+          "full": "Dunaev, Andrey"
+        }
+      ],
+      "entry_type": "misc",
+      "bibtex_key": "kornaev2024approaching-in-vivo-blood-count-tests-wi",
+      "category": "publication"
+    },
+    {
+      "key": "10.1002/jbio.202300469",
+      "title": "Erratum to “Digital diaphanoscopy of maxillary sinus pathologies supported by machine learning”",
+      "year": 2024,
+      "month": 1,
+      "day": null,
+      "type": "journal-article",
+      "venue": "Journal of Biophotonics",
+      "doi": "10.1002/jbio.202300469",
+      "url": "https://doi.org/10.1002/jbio.202300469",
+      "paper": "https://doi.org/10.1002/jbio.202300469",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "Ekaterina O.",
+          "family": "Bryanskaya",
+          "full": "Bryanskaya, Ekaterina O."
+        },
+        {
+          "given": "Viktor V.",
+          "family": "Dremin",
+          "full": "Dremin, Viktor V."
+        },
+        {
+          "given": "Valery V.",
+          "family": "Shupletsov",
+          "full": "Shupletsov, Valery V."
+        },
+        {
+          "given": "Alexey V.",
+          "family": "Kornaev",
+          "full": "Kornaev, Alexey V."
+        },
+        {
+          "given": "Mikhail Yu.",
+          "family": "Kirillin",
+          "full": "Kirillin, Mikhail Yu."
+        },
+        {
+          "given": "Anna V.",
+          "family": "Bakotina",
+          "full": "Bakotina, Anna V."
+        },
+        {
+          "given": "Dmitry N.",
+          "family": "Panchenkov",
+          "full": "Panchenkov, Dmitry N."
+        },
+        {
+          "given": "Konstantin V.",
+          "family": "Podmasteryev",
+          "full": "Podmasteryev, Konstantin V."
+        },
+        {
+          "given": "Viacheslav G.",
+          "family": "Artyushenko",
+          "full": "Artyushenko, Viacheslav G."
+        },
+        {
+          "given": "Andrey V.",
+          "family": "Dunaev",
+          "full": "Dunaev, Andrey V."
+        }
+      ],
+      "entry_type": "article",
+      "bibtex_key": "bryanskaya2024erratum-to-digital-diaphanoscopy-of-maxi",
+      "category": "publication"
+    },
+    {
+      "key": "10.1109/access.2024.3517143",
+      "title": "Exploring Variational Methods in Hydro- and Hemodynamics Through Incompressible Velocity Distribution Sampling",
+      "year": 2024,
+      "month": null,
+      "day": null,
+      "type": "journal-article",
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2024.3517143",
+      "url": "https://doi.org/10.1109/access.2024.3517143",
+      "paper": "https://doi.org/10.1109/access.2024.3517143",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [],
+      "entry_type": "article",
+      "bibtex_key": "kornaev2024exploring-variational-methods-in-hydro-a",
+      "category": "publication"
+    },
+    {
+      "key": "10.1109/access.2024.3498437",
+      "title": "Artificial Neural Networks as a Natural Tool in Solution of Variational Problems in Hydrodynamics",
+      "year": 2024,
+      "month": null,
+      "day": null,
+      "type": "journal-article",
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2024.3498437",
+      "url": "https://doi.org/10.1109/access.2024.3498437",
+      "paper": "https://doi.org/10.1109/access.2024.3498437",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "Ivan",
+          "family": "Stebakov",
+          "full": "Stebakov, Ivan"
+        },
+        {
+          "given": "Alexei",
+          "family": "Kornaev",
+          "full": "Kornaev, Alexei"
+        },
+        {
+          "given": "Elena",
+          "family": "Kornaeva",
+          "full": "Kornaeva, Elena"
+        },
+        {
+          "given": "Nikita",
+          "family": "Litvinenko",
+          "full": "Litvinenko, Nikita"
+        },
+        {
+          "given": "Yuri",
+          "family": "Kazakov",
+          "full": "Kazakov, Yuri"
+        },
+        {
+          "given": "Oleg",
+          "family": "Ivanov",
+          "full": "Ivanov, Oleg"
+        },
+        {
+          "given": "Bulat",
+          "family": "Ibragimov",
+          "full": "Ibragimov, Bulat"
+        }
+      ],
+      "entry_type": "article",
+      "bibtex_key": "stebakov2024artificial-neural-networks-as-a-natural-",
+      "category": "publication"
+    },
+    {
+      "key": "10.1002/jbio.202300138",
+      "title": "Digital diaphanoscopy of maxillary sinus pathologies supported by machine learning",
+      "year": 2023,
+      "month": 9,
+      "day": null,
+      "type": "journal-article",
+      "venue": "Journal of Biophotonics",
+      "doi": "10.1002/jbio.202300138",
+      "url": "https://doi.org/10.1002/jbio.202300138",
+      "paper": "https://doi.org/10.1002/jbio.202300138",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "Ekaterina O.",
+          "family": "Bryanskaya",
+          "full": "Bryanskaya, Ekaterina O."
+        },
+        {
+          "given": "Viktor V.",
+          "family": "Dremin",
+          "full": "Dremin, Viktor V."
+        },
+        {
+          "given": "Valery V.",
+          "family": "Shupletsov",
+          "full": "Shupletsov, Valery V."
+        },
+        {
+          "given": "Alexey V.",
+          "family": "Kornaev",
+          "full": "Kornaev, Alexey V."
+        },
+        {
+          "given": "Mikhail Yu.",
+          "family": "Kirillin",
+          "full": "Kirillin, Mikhail Yu."
+        },
+        {
+          "given": "Anna V.",
+          "family": "Bakotina",
+          "full": "Bakotina, Anna V."
+        },
+        {
+          "given": "Dmitry N.",
+          "family": "Panchenkov",
+          "full": "Panchenkov, Dmitry N."
+        },
+        {
+          "given": "Konstantin V.",
+          "family": "Podmasteryev",
+          "full": "Podmasteryev, Konstantin V."
+        },
+        {
+          "given": "Viacheslav G.",
+          "family": "Artyushenko",
+          "full": "Artyushenko, Viacheslav G."
+        },
+        {
+          "given": "Andrey V.",
+          "family": "Dunaev",
+          "full": "Dunaev, Andrey V."
+        }
+      ],
+      "entry_type": "article",
+      "bibtex_key": "bryanskaya2023digital-diaphanoscopy-of-maxillary-sinus",
+      "category": "publication"
+    },
+    {
+      "key": "10.1016/j.ijmecsci.2022.107967",
+      "title": "A method to measure non-Newtonian fluids viscosity using inertial viscometer with a computer vision system",
+      "year": 2023,
+      "month": 3,
+      "day": null,
+      "type": "journal-article",
+      "venue": "International Journal of Mechanical Sciences",
+      "doi": "10.1016/j.ijmecsci.2022.107967",
+      "url": "https://doi.org/10.1016/j.ijmecsci.2022.107967",
+      "paper": "https://doi.org/10.1016/j.ijmecsci.2022.107967",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "Elena P.",
+          "family": "Kornaeva",
+          "full": "Kornaeva, Elena P."
+        },
+        {
+          "given": "Ivan N.",
+          "family": "Stebakov",
+          "full": "Stebakov, Ivan N."
+        },
+        {
+          "given": "Alexey V.",
+          "family": "Kornaev",
+          "full": "Kornaev, Alexey V."
+        },
+        {
+          "given": "Viktor V.",
+          "family": "Dremin",
+          "full": "Dremin, Viktor V."
+        },
+        {
+          "given": "Sergey G.",
+          "family": "Popov",
+          "full": "Popov, Sergey G."
+        },
+        {
+          "given": "Andrey Yu.",
+          "family": "Vinokurov",
+          "full": "Vinokurov, Andrey Yu."
+        }
+      ],
+      "entry_type": "article",
+      "bibtex_key": "kornaeva2023a-method-to-measure-non-newtonian-fluids",
+      "category": "publication"
+    },
+    {
+      "key": "10.1016/j.ymssp.2022.109548",
+      "title": "Theoretical and experimental study of motion suppression and friction reduction of rotor systems with active hybrid fluid-film bearings",
+      "year": 2023,
+      "month": 1,
+      "day": null,
+      "type": "journal-article",
+      "venue": "Mechanical Systems and Signal Processing",
+      "doi": "10.1016/j.ymssp.2022.109548",
+      "url": "https://doi.org/10.1016/j.ymssp.2022.109548",
+      "paper": "https://doi.org/10.1016/j.ymssp.2022.109548",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "Shengbo",
+          "family": "Li",
+          "full": "Li, Shengbo"
+        },
+        {
+          "given": "Changjiang",
+          "family": "Zhou",
+          "full": "Zhou, Changjiang"
+        },
+        {
+          "given": "Leonid",
+          "family": "Savin",
+          "full": "Savin, Leonid"
+        },
+        {
+          "given": "Denis",
+          "family": "Shutin",
+          "full": "Shutin, Denis"
+        },
+        {
+          "given": "Alexey",
+          "family": "Kornaev",
+          "full": "Kornaev, Alexey"
+        },
+        {
+          "given": "Roman",
+          "family": "Polyakov",
+          "full": "Polyakov, Roman"
+        },
+        {
+          "given": "Zhaobo",
+          "family": "Chen",
+          "full": "Chen, Zhaobo"
+        }
+      ],
+      "entry_type": "article",
+      "bibtex_key": "li2023theoretical-and-experimental-study-of-mo",
+      "category": "publication"
+    },
+    {
+      "key": "10.1007/978-3-031-35510-3_2",
+      "title": "U-Net as a Tool for Adjusting the Velocity Distributions of Rheomagnetic Fluids",
+      "year": 2023,
+      "month": null,
+      "day": null,
+      "type": "book-chapter",
+      "venue": "",
+      "doi": "10.1007/978-3-031-35510-3_2",
+      "url": "https://doi.org/10.1007/978-3-031-35510-3_2",
+      "paper": "https://doi.org/10.1007/978-3-031-35510-3_2",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "Elena",
+          "family": "Kornaeva",
+          "full": "Kornaeva, Elena"
+        },
+        {
+          "given": "Alexey",
+          "family": "Kornaev",
+          "full": "Kornaev, Alexey"
+        },
+        {
+          "given": "Alexander",
+          "family": "Fetisov",
+          "full": "Fetisov, Alexander"
+        },
+        {
+          "given": "Ivan",
+          "family": "Stebakov",
+          "full": "Stebakov, Ivan"
+        },
+        {
+          "given": "Leonid",
+          "family": "Savin",
+          "full": "Savin, Leonid"
+        }
+      ],
+      "entry_type": "incollection",
+      "bibtex_key": "kornaeva2023u-net-as-a-tool-for-adjusting-the-veloci",
+      "category": "publication"
+    },
+    {
+      "key": "10.1007/978-3-031-27499-2_86",
+      "title": "Influence of Cross Histology Transfer Learning on the Accuracy of Medical Diagnostics Systems",
+      "year": 2023,
+      "month": null,
+      "day": null,
+      "type": "book-chapter",
+      "venue": "",
+      "doi": "10.1007/978-3-031-27499-2_86",
+      "url": "https://doi.org/10.1007/978-3-031-27499-2_86",
+      "paper": "https://doi.org/10.1007/978-3-031-27499-2_86",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "Alexander",
+          "family": "Mongolin",
+          "full": "Mongolin, Alexander"
+        },
+        {
+          "given": "Sergey",
+          "family": "Khomeriki",
+          "full": "Khomeriki, Sergey"
+        },
+        {
+          "given": "Nikolay",
+          "family": "Karnaukhov",
+          "full": "Karnaukhov, Nikolay"
+        },
+        {
+          "given": "Konstantin",
+          "family": "Abramov",
+          "full": "Abramov, Konstantin"
+        },
+        {
+          "given": "Roman",
+          "family": "Vorobev",
+          "full": "Vorobev, Roman"
+        },
+        {
+          "given": "Yuri",
+          "family": "Gorbachev",
+          "full": "Gorbachev, Yuri"
+        },
+        {
+          "given": "Anastasia",
+          "family": "Zabruntseva",
+          "full": "Zabruntseva, Anastasia"
+        },
+        {
+          "given": "Alexey",
+          "family": "Kornaev",
+          "full": "Kornaev, Alexey"
+        }
+      ],
+      "entry_type": "incollection",
+      "bibtex_key": "mongolin2023influence-of-cross-histology-transfer-le",
+      "category": "publication"
+    },
+    {
+      "key": "10.1177/13506501211073242",
+      "title": "Fault diagnosis systems for rotating machines operating with fluid-film bearings",
+      "year": 2022,
+      "month": 10,
+      "day": null,
+      "type": "journal-article",
+      "venue": "Proceedings of the Institution of Mechanical Engineers, Part J: Journal of Engineering Tribology",
+      "doi": "10.1177/13506501211073242",
+      "url": "https://doi.org/10.1177/13506501211073242",
+      "paper": "https://doi.org/10.1177/13506501211073242",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "Ivan",
+          "family": "Stebakov",
+          "full": "Stebakov, Ivan"
+        },
+        {
+          "given": "Alexey",
+          "family": "Kornaev",
+          "full": "Kornaev, Alexey"
+        },
+        {
+          "given": "Sergey",
+          "family": "Popov",
+          "full": "Popov, Sergey"
+        },
+        {
+          "given": "Leonid",
+          "family": "Savin",
+          "full": "Savin, Leonid"
+        }
+      ],
+      "entry_type": "article",
+      "bibtex_key": "stebakov2022fault-diagnosis-systems-for-rotating-mac",
+      "category": "publication"
+    },
+    {
+      "key": "10.1177/1350650119879260",
+      "title": "Influence of polymer additives on friction in fluid-film bearings: Theoretical view on experimental results by Moritsugu Kasai et al.",
+      "year": 2020,
+      "month": null,
+      "day": null,
+      "type": "journal-article",
+      "venue": "Proceedings of the Institution of Mechanical Engineers, Part J: Journal of Engineering Tribology",
+      "doi": "10.1177/1350650119879260",
+      "url": "https://doi.org/10.1177/1350650119879260",
+      "paper": "https://doi.org/10.1177/1350650119879260",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "Alexey V",
+          "family": "Kornaev",
+          "full": "Kornaev, Alexey V"
+        },
+        {
+          "given": "Leonid A",
+          "family": "Savin",
+          "full": "Savin, Leonid A"
+        },
+        {
+          "given": "Elena P",
+          "family": "Kornaeva",
+          "full": "Kornaeva, Elena P"
+        }
+      ],
+      "entry_type": "article",
+      "bibtex_key": "kornaev2020influence-of-polymer-additives-on-fricti",
+      "category": "publication"
+    },
+    {
+      "key": "10.1088/1757-899x/734/1/012080",
+      "title": "Design features of hybrid bearings with adjustable stiffness",
+      "year": 2020,
+      "month": null,
+      "day": null,
+      "type": "conference-paper",
+      "venue": "IOP Conference Series: Materials Science and Engineering",
+      "doi": "10.1088/1757-899x/734/1/012080",
+      "url": "https://doi.org/10.1088/1757-899x/734/1/012080",
+      "paper": "https://doi.org/10.1088/1757-899x/734/1/012080",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "R N",
+          "family": "Polyakov",
+          "full": "Polyakov, R N"
+        },
+        {
+          "given": "A V",
+          "family": "Kornaev",
+          "full": "Kornaev, A V"
+        },
+        {
+          "given": "M E",
+          "family": "Bondarenko",
+          "full": "Bondarenko, M E"
+        },
+        {
+          "given": "D V",
+          "family": "Shutin",
+          "full": "Shutin, D V"
+        }
+      ],
+      "entry_type": "inproceedings",
+      "bibtex_key": "polyakov2020design-features-of-hybrid-bearings-with-",
+      "category": "conference"
+    },
+    {
+      "key": "10.1088/1742-6596/1553/1/012005",
+      "title": "Application of artificial neural networks to solution of variational problems in hydrodynamics",
+      "year": 2020,
+      "month": null,
+      "day": null,
+      "type": "conference-paper",
+      "venue": "Journal of Physics: Conference Series",
+      "doi": "10.1088/1742-6596/1553/1/012005",
+      "url": "https://doi.org/10.1088/1742-6596/1553/1/012005",
+      "paper": "https://doi.org/10.1088/1742-6596/1553/1/012005",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "E",
+          "family": "Kornaeva",
+          "full": "Kornaeva, E"
+        },
+        {
+          "given": "A",
+          "family": "Kornaev",
+          "full": "Kornaev, A"
+        },
+        {
+          "given": "S",
+          "family": "Egorov",
+          "full": "Egorov, S"
+        }
+      ],
+      "entry_type": "inproceedings",
+      "bibtex_key": "kornaeva2020application-of-artificial-neural-network",
+      "category": "conference"
+    },
+    {
+      "key": "10.1088/1757-899x/734/1/012154",
+      "title": "Application of artificial neural networks to diagnostics of fluid-film bearing lubrication",
+      "year": 2020,
+      "month": null,
+      "day": null,
+      "type": "conference-paper",
+      "venue": "IOP Conference Series: Materials Science and Engineering",
+      "doi": "10.1088/1757-899x/734/1/012154",
+      "url": "https://doi.org/10.1088/1757-899x/734/1/012154",
+      "paper": "https://doi.org/10.1088/1757-899x/734/1/012154",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "E P",
+          "family": "Kornaeva",
+          "full": "Kornaeva, E P"
+        },
+        {
+          "given": "A V",
+          "family": "Kornaev",
+          "full": "Kornaev, A V"
+        },
+        {
+          "given": "Yu N",
+          "family": "Kazakov",
+          "full": "Kazakov, Yu N"
+        },
+        {
+          "given": "R N",
+          "family": "Polyakov",
+          "full": "Polyakov, R N"
+        }
+      ],
+      "entry_type": "inproceedings",
+      "bibtex_key": "kornaeva2020application-of-artificial-neural-network",
+      "category": "conference"
+    },
+    {
+      "key": "10.1177/1350650119862074",
+      "title": "Active thrust fluid-film bearings: Theoretical and experimental studies",
+      "year": 2020,
+      "month": null,
+      "day": null,
+      "type": "journal-article",
+      "venue": "Proceedings of the Institution of Mechanical Engineers, Part J: Journal of Engineering Tribology",
+      "doi": "10.1177/1350650119862074",
+      "url": "https://doi.org/10.1177/1350650119862074",
+      "paper": "https://doi.org/10.1177/1350650119862074",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "Alexander",
+          "family": "Babin",
+          "full": "Babin, Alexander"
+        },
+        {
+          "given": "Alexey",
+          "family": "Kornaev",
+          "full": "Kornaev, Alexey"
+        },
+        {
+          "given": "Alexey",
+          "family": "Rodichev",
+          "full": "Rodichev, Alexey"
+        },
+        {
+          "given": "Leonid",
+          "family": "Savin",
+          "full": "Savin, Leonid"
+        }
+      ],
+      "entry_type": "article",
+      "bibtex_key": "babin2020active-thrust-fluid-film-bearings-theore",
+      "category": "publication"
+    },
+    {
+      "key": "10.15544/balttrib.2019.23",
+      "title": "Tribomechatronics as a field of study",
+      "year": 2019,
+      "month": null,
+      "day": null,
+      "type": "conference-paper",
+      "venue": "Proceedings of 10th International Scientific Conference BALTTRIB 2019",
+      "doi": "10.15544/balttrib.2019.23",
+      "url": "https://doi.org/10.15544/balttrib.2019.23",
+      "paper": "https://doi.org/10.15544/balttrib.2019.23",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "L.",
+          "family": "Savin",
+          "full": "Savin, L."
+        },
+        {
+          "given": "A.",
+          "family": "Kornaev",
+          "full": "Kornaev, A."
+        },
+        {
+          "given": "R.",
+          "family": "Polyakov",
+          "full": "Polyakov, R."
+        },
+        {
+          "given": "A.",
+          "family": "Babin",
+          "full": "Babin, A."
+        }
+      ],
+      "entry_type": "inproceedings",
+      "bibtex_key": "savin2019tribomechatronics-as-a-field-of-study",
+      "category": "conference"
+    },
+    {
+      "key": "10.1109/dcnair.2019.8875575",
+      "title": "Simulation of Deep Learning Control Systems to Reduce Energy Loses due to Vibration and Friction in Rotor Bearings",
+      "year": 2019,
+      "month": null,
+      "day": null,
+      "type": "conference-paper",
+      "venue": "2019 3rd School on Dynamics of Complex Networks and their Application in Intellectual Robotics, DCNAIR 2019",
+      "doi": "10.1109/dcnair.2019.8875575",
+      "url": "https://doi.org/10.1109/dcnair.2019.8875575",
+      "paper": "https://doi.org/10.1109/dcnair.2019.8875575",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "Alexey",
+          "family": "Kornaev",
+          "full": "Kornaev, Alexey"
+        },
+        {
+          "given": "Roman",
+          "family": "Zaretsky",
+          "full": "Zaretsky, Roman"
+        },
+        {
+          "given": "Sergey",
+          "family": "Egorov",
+          "full": "Egorov, Sergey"
+        }
+      ],
+      "entry_type": "inproceedings",
+      "bibtex_key": "kornaev2019simulation-of-deep-learning-control-syst",
+      "category": "conference"
+    },
+    {
+      "key": "10.1007/978-3-319-95630-5_112",
+      "title": "On proof of the generalized lagrange variational principle",
+      "year": 2019,
+      "month": null,
+      "day": null,
+      "type": "book",
+      "venue": "Lecture Notes in Mechanical Engineering",
+      "doi": "10.1007/978-3-319-95630-5_112",
+      "url": "https://doi.org/10.1007/978-3-319-95630-5_112",
+      "paper": "https://doi.org/10.1007/978-3-319-95630-5_112",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "A. V.",
+          "family": "Kornaev",
+          "full": "Kornaev, A. V."
+        }
+      ],
+      "entry_type": "book",
+      "bibtex_key": "kornaev2019on-proof-of-the-generalized-lagrange-var",
+      "category": "publication"
+    },
+    {
+      "key": "10.1007/978-3-319-95630-5_114",
+      "title": "Friction and vibration in journal bearings operating with nanofluids: Experimental results",
+      "year": 2019,
+      "month": null,
+      "day": null,
+      "type": "book",
+      "venue": "Lecture Notes in Mechanical Engineering",
+      "doi": "10.1007/978-3-319-95630-5_114",
+      "url": "https://doi.org/10.1007/978-3-319-95630-5_114",
+      "paper": "https://doi.org/10.1007/978-3-319-95630-5_114",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "A. S.",
+          "family": "Fetisov",
+          "full": "Fetisov, A. S."
+        },
+        {
+          "given": "A. V.",
+          "family": "Kornaev",
+          "full": "Kornaev, A. V."
+        },
+        {
+          "given": "N. V.",
+          "family": "Tokmakov",
+          "full": "Tokmakov, N. V."
+        }
+      ],
+      "entry_type": "book",
+      "bibtex_key": "fetisov2019friction-and-vibration-in-journal-bearin",
+      "category": "publication"
+    },
+    {
+      "key": "10.15544/balttrib.2019.27",
+      "title": "Evaluation of energy efficiency of thrust hybrid bearings with active control of lubrication regime",
+      "year": 2019,
+      "month": null,
+      "day": null,
+      "type": "conference-paper",
+      "venue": "Proceedings of 10th International Scientific Conference BALTTRIB 2019",
+      "doi": "10.15544/balttrib.2019.27",
+      "url": "https://doi.org/10.15544/balttrib.2019.27",
+      "paper": "https://doi.org/10.15544/balttrib.2019.27",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "A.",
+          "family": "Babin",
+          "full": "Babin, A."
+        },
+        {
+          "given": "L.",
+          "family": "Savin",
+          "full": "Savin, L."
+        },
+        {
+          "given": "A.",
+          "family": "Kornaev",
+          "full": "Kornaev, A."
+        }
+      ],
+      "entry_type": "inproceedings",
+      "bibtex_key": "babin2019evaluation-of-energy-efficiency-of-thrus",
+      "category": "conference"
+    },
+    {
+      "key": "10.15544/balttrib.2019.31",
+      "title": "Application of variational approach to non-Newtonian fluid flow modelling",
+      "year": 2019,
+      "month": null,
+      "day": null,
+      "type": "conference-paper",
+      "venue": "Proceedings of 10th International Scientific Conference BALTTRIB 2019",
+      "doi": "10.15544/balttrib.2019.31",
+      "url": "https://doi.org/10.15544/balttrib.2019.31",
+      "paper": "https://doi.org/10.15544/balttrib.2019.31",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "A.V",
+          "family": "Kornaev",
+          "full": "Kornaev, A.V"
+        },
+        {
+          "given": "E.P.",
+          "family": "Kornaeva",
+          "full": "Kornaeva, E.P."
+        },
+        {
+          "given": "L.A.",
+          "family": "Savin",
+          "full": "Savin, L.A."
+        },
+        {
+          "given": "A.S.",
+          "family": "Fetisov",
+          "full": "Fetisov, A.S."
+        }
+      ],
+      "entry_type": "inproceedings",
+      "bibtex_key": "kornaev2019application-of-variational-approach-to-n",
+      "category": "conference"
+    },
+    {
+      "key": "2018-numerical-and-experimental-study-of-active-thrust-fluid-film-bearings-with-fixed-pads",
+      "title": "Numerical and experimental study of active thrust fluid-film bearings with fixed PADS",
+      "year": 2018,
+      "month": null,
+      "day": null,
+      "type": "conference-paper",
+      "venue": "73rd Society of Tribologists and Lubrication Engineers Annual Meeting and Exhibition 2018",
+      "doi": "",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85052635365&partnerID=MN8TOARS",
+      "paper": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85052635365&partnerID=MN8TOARS",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [],
+      "entry_type": "inproceedings",
+      "bibtex_key": "kornaev2018numerical-and-experimental-study-of-acti",
+      "category": "conference"
+    },
+    {
+      "key": "2017-theoretical-premises-of-thermal-wedge-effect-in-fluid-film-bearings-supplied-with-a-non-homogeneous-lubricant",
+      "title": "Theoretical premises of thermal wedge effect in fluid-film bearings supplied with a non-homogeneous lubricant",
+      "year": 2017,
+      "month": null,
+      "day": null,
+      "type": "journal-article",
+      "venue": "International Journal of Mechanics",
+      "doi": "",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85042712346&partnerID=MN8TOARS",
+      "paper": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85042712346&partnerID=MN8TOARS",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [],
+      "entry_type": "article",
+      "bibtex_key": "kornaev2017theoretical-premises-of-thermal-wedge-ef",
+      "category": "publication"
+    },
+    {
+      "key": "10.1155/2017/8761375",
+      "title": "Influence of Critical Flow Rates on Characteristics of Enforced and Shear Flows in Circular Convergent-Divergent Channels",
+      "year": 2017,
+      "month": null,
+      "day": null,
+      "type": "journal-article",
+      "venue": "International Journal of Rotating Machinery",
+      "doi": "10.1155/2017/8761375",
+      "url": "https://doi.org/10.1155/2017/8761375",
+      "paper": "https://doi.org/10.1155/2017/8761375",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "Leonid A.",
+          "family": "Savin",
+          "full": "Savin, Leonid A."
+        },
+        {
+          "given": "Alexey V.",
+          "family": "Kornaev",
+          "full": "Kornaev, Alexey V."
+        },
+        {
+          "given": "Elena P.",
+          "family": "Kornaeva",
+          "full": "Kornaeva, Elena P."
+        }
+      ],
+      "entry_type": "article",
+      "bibtex_key": "savin2017influence-of-critical-flow-rates-on-char",
+      "category": "publication"
+    },
+    {
+      "key": "10.1155/2017/9196701",
+      "title": "Application of Artificial Neural Networks to Calculation of Oil Film Reaction Forces and Dynamics of Rotors on Journal Bearings",
+      "year": 2017,
+      "month": null,
+      "day": null,
+      "type": "journal-article",
+      "venue": "International Journal of Rotating Machinery",
+      "doi": "10.1155/2017/9196701",
+      "url": "https://doi.org/10.1155/2017/9196701",
+      "paper": "https://doi.org/10.1155/2017/9196701",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "Alexey V.",
+          "family": "Kornaev",
+          "full": "Kornaev, Alexey V."
+        },
+        {
+          "given": "Nickolay V.",
+          "family": "Kornaev",
+          "full": "Kornaev, Nickolay V."
+        },
+        {
+          "given": "Elena P.",
+          "family": "Kornaeva",
+          "full": "Kornaeva, Elena P."
+        },
+        {
+          "given": "Leonid A.",
+          "family": "Savin",
+          "full": "Savin, Leonid A."
+        }
+      ],
+      "entry_type": "article",
+      "bibtex_key": "kornaev2017application-of-artificial-neural-network",
+      "category": "publication"
+    },
+    {
+      "key": "2016-theoretical-premises-of-a-vibro-inertial-method-of-viscosity-measurement",
+      "title": "Theoretical premises of a vibro-inertial method of viscosity measurement",
+      "year": 2016,
+      "month": null,
+      "day": null,
+      "type": "conference-paper",
+      "venue": "Vibroengineering Procedia",
+      "doi": "",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84995426657&partnerID=MN8TOARS",
+      "paper": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84995426657&partnerID=MN8TOARS",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [],
+      "entry_type": "inproceedings",
+      "bibtex_key": "kornaev2016theoretical-premises-of-a-vibro-inertial",
+      "category": "conference"
+    },
+    {
+      "key": "2016-mathematical-model-and-finite-volume-solution-of-a-three-dimensional-fluid-flow-between-an-eccentric-cylinder-and-a-cone",
+      "title": "Mathematical model and finite-volume solution of a three-dimensional fluid flow between an eccentric cylinder and a cone",
+      "year": 2016,
+      "month": null,
+      "day": null,
+      "type": "journal-article",
+      "venue": "International Journal of Mathematical Models and Methods in Applied Sciences",
+      "doi": "",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85000783888&partnerID=MN8TOARS",
+      "paper": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85000783888&partnerID=MN8TOARS",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [],
+      "entry_type": "article",
+      "bibtex_key": "kornaev2016mathematical-model-and-finite-volume-sol",
+      "category": "publication"
+    },
+    {
+      "key": "10.1016/j.triboint.2016.04.014",
+      "title": "Influence of the ultrafine oil additives on friction and vibration in journal bearings",
+      "year": 2016,
+      "month": null,
+      "day": null,
+      "type": "journal-article",
+      "venue": "Tribology International",
+      "doi": "10.1016/j.triboint.2016.04.014",
+      "url": "https://doi.org/10.1016/j.triboint.2016.04.014",
+      "paper": "https://doi.org/10.1016/j.triboint.2016.04.014",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "Alexey",
+          "family": "Kornaev",
+          "full": "Kornaev, Alexey"
+        },
+        {
+          "given": "Leonid",
+          "family": "Savin",
+          "full": "Savin, Leonid"
+        },
+        {
+          "given": "Elena",
+          "family": "Kornaeva",
+          "full": "Kornaeva, Elena"
+        },
+        {
+          "given": "Alex",
+          "family": "Fetisov",
+          "full": "Fetisov, Alex"
+        }
+      ],
+      "entry_type": "article",
+      "bibtex_key": "kornaev2016influence-of-the-ultrafine-oil-additives",
+      "category": "publication"
+    },
+    {
+      "key": "10.1016/j.proeng.2016.07.056",
+      "title": "Inertial Method of Viscosity Measurement of the Complex Rheology Medium",
+      "year": 2016,
+      "month": null,
+      "day": null,
+      "type": "conference-paper",
+      "venue": "Procedia Engineering",
+      "doi": "10.1016/j.proeng.2016.07.056",
+      "url": "https://doi.org/10.1016/j.proeng.2016.07.056",
+      "paper": "https://doi.org/10.1016/j.proeng.2016.07.056",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "E.",
+          "family": "Kornaeva",
+          "full": "Kornaeva, E."
+        },
+        {
+          "given": "A.",
+          "family": "Kornaev",
+          "full": "Kornaev, A."
+        },
+        {
+          "given": "L.",
+          "family": "Savin",
+          "full": "Savin, L."
+        }
+      ],
+      "entry_type": "inproceedings",
+      "bibtex_key": "kornaeva2016inertial-method-of-viscosity-measurement",
+      "category": "conference"
+    },
+    {
+      "key": "2016-hydrodynamic-effects-influence-on-lateral-vibrations-of-rigid-symmetric-rotor-with-fluid-film-bearings",
+      "title": "Hydrodynamic effects influence on lateral vibrations of rigid symmetric rotor with fluid-film bearings",
+      "year": 2016,
+      "month": null,
+      "day": null,
+      "type": "conference-paper",
+      "venue": "Vibroengineering Procedia",
+      "doi": "",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84995494473&partnerID=MN8TOARS",
+      "paper": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84995494473&partnerID=MN8TOARS",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [],
+      "entry_type": "inproceedings",
+      "bibtex_key": "kornaev2016hydrodynamic-effects-influence-on-latera",
+      "category": "conference"
+    },
+    {
+      "key": "2016-approximate-solution-of-the-navier-stokes-equation-and-magnus-effect-in-the-fluid-film-bearings",
+      "title": "Approximate solution of the Navier-Stokes equation and magnus effect in the fluid-film bearings",
+      "year": 2016,
+      "month": null,
+      "day": null,
+      "type": "journal-article",
+      "venue": "International Journal of Mathematics and Computers in Simulation",
+      "doi": "",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84956645386&partnerID=MN8TOARS",
+      "paper": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84956645386&partnerID=MN8TOARS",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [],
+      "entry_type": "article",
+      "bibtex_key": "kornaev2016approximate-solution-of-the-navier-stoke",
+      "category": "publication"
+    },
+    {
+      "key": "2015-variational-principle-in-the-hydrodynamic-lubrication-theory",
+      "title": "Variational principle in the hydrodynamic lubrication theory",
+      "year": 2015,
+      "month": null,
+      "day": null,
+      "type": "journal-article",
+      "venue": "International Journal of Mathematical Models and Methods in Applied Sciences",
+      "doi": "",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84926507849&partnerID=MN8TOARS",
+      "paper": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84926507849&partnerID=MN8TOARS",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [],
+      "entry_type": "article",
+      "bibtex_key": "kornaev2015variational-principle-in-the-hydrodynami",
+      "category": "publication"
+    },
+    {
+      "key": "10.3390/lubricants2010001",
+      "title": "The application of molecular dynamics in fullerene-based journal bearing simulation",
+      "year": 2014,
+      "month": null,
+      "day": null,
+      "type": "journal-article",
+      "venue": "Lubricants",
+      "doi": "10.3390/lubricants2010001",
+      "url": "https://doi.org/10.3390/lubricants2010001",
+      "paper": "https://doi.org/10.3390/lubricants2010001",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "Alexey",
+          "family": "Kornaev",
+          "full": "Kornaev, Alexey"
+        },
+        {
+          "given": "Leonid",
+          "family": "Savin",
+          "full": "Savin, Leonid"
+        },
+        {
+          "given": "Mikhail",
+          "family": "Nozdrichkin",
+          "full": "Nozdrichkin, Mikhail"
+        }
+      ],
+      "entry_type": "article",
+      "bibtex_key": "kornaev2014the-application-of-molecular-dynamics-in",
+      "category": "publication"
+    },
+    {
+      "key": "10.4028/www.scientific.net/amm.630.199",
+      "title": "Effect of lubrication of fluid friction bearings with media of complex rheology",
+      "year": 2014,
+      "month": null,
+      "day": null,
+      "type": "book",
+      "venue": "Applied Mechanics and Materials",
+      "doi": "10.4028/www.scientific.net/amm.630.199",
+      "url": "https://doi.org/10.4028/www.scientific.net/amm.630.199",
+      "paper": "https://doi.org/10.4028/www.scientific.net/amm.630.199",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "Leonid",
+          "family": "Savin",
+          "full": "Savin, Leonid"
+        },
+        {
+          "given": "Alexey",
+          "family": "Kornaev",
+          "full": "Kornaev, Alexey"
+        },
+        {
+          "given": "Elena",
+          "family": "Kornaeva",
+          "full": "Kornaeva, Elena"
+        }
+      ],
+      "entry_type": "book",
+      "bibtex_key": "savin2014effect-of-lubrication-of-fluid-friction-",
+      "category": "publication"
+    }
+  ]
+}

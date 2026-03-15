@@ -1,0 +1,49 @@
+\RequirePackage[T1]{fontenc}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage{lmodern}
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage{booktabs}
+\RequirePackage{graphicx}
+\RequirePackage{xcolor}
+\RequirePackage{hyperref}
+\RequirePackage{csquotes}
+\RequirePackage[
+  backend=biber,
+  style=authoryear,
+  sorting=nyt
+]{biblatex}
+
+\definecolor{cvblue}{HTML}{0B4F6C}
+\definecolor{cvgold}{HTML}{C89B3C}
+\definecolor{cvgray}{HTML}{4A4A4A}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=cvblue,
+  citecolor=cvblue,
+  urlcolor=cvblue
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.75em}
+
+\providecommand{\coursename}{CV-2026}
+\providecommand{\lecturetitle}{Lecture Title}
+\providecommand{\lecturesubtitle}{}
+\providecommand{\lectureweek}{00}
+\providecommand{\lecturedate}{TBD}
+\providecommand{\readingnote}{}
+
+\newcommand{\lectureheading}{%
+  {\LARGE\bfseries\textcolor{cvblue}{\coursename}}\\[0.5em]
+  {\Large\bfseries \lecturetitle}\\
+  \ifx\lecturesubtitle\empty\else{\large \lecturesubtitle}\\\fi
+  \textcolor{cvgray}{Week \lectureweek\ \textbar\ \lecturedate}
+}
+
+\newcommand{\sectiontitle}[1]{%
+  \vspace{1em}
+  {\Large\bfseries\textcolor{cvblue}{#1}}
+  \par
+}

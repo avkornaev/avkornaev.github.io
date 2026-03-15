@@ -5,7 +5,7 @@ affiliations:
   - "Affiliated Researcher, Placeholder Robotics Institute"
 location: Moscow, Russia
 email: alexei.kornaev@example.com
-photo: /assets/img/profile-placeholder.svg
+photo: /assets/img/alexei.jpg
 research_interests:
   - Computer vision for clinical decision support
   - Foundation models for medical imaging

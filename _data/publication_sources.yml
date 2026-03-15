@@ -1,0 +1,9 @@
+orcid: "0000-0001-5121-6045"
+scholar: "https://scholar.google.com/citations?user=TGYOzQEAAAAJ&hl=ru"
+scopus_author_id: "56436797600"
+researcher_id: "A-6168-2015"
+sync_source: ORCID
+sync_notes:
+  - ORCID is used for automatic syncing because it has a public API.
+  - Google Scholar scraping is intentionally not automated here.
+  - Scopus and Web of Science can be used later if API credentials are available.

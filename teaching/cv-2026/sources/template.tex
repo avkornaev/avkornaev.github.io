@@ -1,0 +1,25 @@
+\documentclass[11pt]{article}
+
+\input{../style.sty}
+\addbibresource{../references.bib}
+\graphicspath{{../figures/}}
+
+\title{\lecturetitle}
+\author{\coursename}
+\date{\lecturedate}
+
+\begin{document}
+
+\lectureheading
+
+\ifx\readingnote\empty\else
+\vspace{0.75em}
+{\small\textbf{Suggested reading:} \readingnote}
+\par
+\fi
+
+\input{content.tex}
+
+\printbibliography
+
+\end{document}

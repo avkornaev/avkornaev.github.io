@@ -12,6 +12,11 @@ intro: This page can grow incrementally as courses, lecture materials, and super
 - **Reliable AI in Healthcare**  
   Placeholder seminar on evaluation, regulation, safety, and deployment constraints.
 
+## Course materials
+
+- **Computer Vision 2026 LaTeX project**  
+  The repository now includes a full course-materials project at [`/teaching/cv-2026`](G:/avkornaev.github.io/teaching/cv-2026), including portable LaTeX sources in [`/teaching/cv-2026/sources`](G:/avkornaev.github.io/teaching/cv-2026/sources) and student-facing weekly PDFs and notebooks in the `Week_XX` folders.
+
 ## Lecture materials
 
 - Week-by-week lecture slides can be linked here.

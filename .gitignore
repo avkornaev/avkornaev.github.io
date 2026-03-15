@@ -4,3 +4,13 @@ _site/
 vendor/
 .sass-cache/
 .ruby-lsp/
+
+# Private job-search materials
+job-search/
+applications/
+private/
+*_teaching_statement.*
+*_research_statement.*
+*_cover_letter.*
+*_diversity_statement.*
+*_job_market_cv.*
