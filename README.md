@@ -1,13 +1,14 @@
 # Alexei Kornaev Academic Website
 
-This repository contains a minimal Jekyll-based academic website prepared for GitHub Pages deployment.
+This repository contains the source for the personal academic website of Alexei Kornaev.
+The site is built with Jekyll, designed for GitHub Pages deployment, and keeps publications synchronized from ORCID into BibTeX and structured site data.
 
 ## Stack
 
 - Jekyll
 - `minima` as the base theme
 - `jekyll-scholar` for BibTeX-driven publications
-- GitHub Actions for build and deploy
+- GitHub Actions for build, deploy, and scheduled publication sync
 
 ## Repository structure
 
@@ -24,6 +25,16 @@ This repository contains a minimal Jekyll-based academic website prepared for Gi
 - `assets/img/` - images and placeholders
 - `_layouts/` - lightweight custom layouts
 - `index.md` and top-level `*.md` pages - editable page content
+
+## Website sections
+
+- Home
+- Publications
+- Research
+- Teaching
+- Software
+- CV
+- Contact
 
 ## Local development
 
@@ -44,7 +55,7 @@ bundle exec jekyll serve
 
 ## Publication sync
 
-The repository includes an automated ORCID-based sync script.
+The repository includes an automated ORCID-based sync workflow.
 
 Run it locally with:
 
@@ -63,6 +74,20 @@ Notes:
 - Google Scholar does not provide an official public API, so scraping it reliably over time is not recommended.
 - Scopus and Web of Science are linked via your identifiers, but full automated harvesting from those services usually requires API access and credentials.
 - Add paper/code/project/slides/dataset links in `_data/publication_overrides.json` when ORCID/Crossref metadata does not contain them.
+- The scheduled GitHub Actions workflow refreshes publications once per week and can also be triggered manually.
+
+## Private job-search workspace
+
+The root `.gitignore` already excludes directories such as `private/`, `job-search/`, and `applications/`.
+You can keep local-only files there, including:
+
+- teaching statements
+- research statements
+- job-market CV variants
+- cover letters
+- application-specific notes
+
+These files will stay out of Git and out of the published Jekyll site unless you intentionally remove the ignore rules.
 
 ## Deployment
 
@@ -76,13 +101,12 @@ To deploy on GitHub Pages:
 4. Push to the default branch.
 
 The workflow will build the Jekyll site with `jekyll-scholar` and publish it.
-The repository also includes a scheduled workflow that refreshes publications from ORCID once per week and can be triggered manually.
 
-## What to edit first
+## First edits after publishing
 
 1. Replace profile details in `_data/profile.yml`.
 2. Update external links in `_data/links.yml`.
-3. Add real publications in `bibliography/publications.bib`.
+3. Review `bibliography/publications.bib` and `_data/publications.json` after the first ORCID sync.
 4. Replace the placeholder CV file at `assets/files/alexei-kornaev-cv.pdf`.
 5. Replace the placeholder profile image at `assets/img/profile-placeholder.svg` if desired.
 6. Edit page content in:

@@ -209,6 +209,11 @@ a {
   gap: 0.75rem;
 }
 
+.filter-bar label {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .filter-bar select {
   background: var(--surface);
   border: 1px solid var(--border);

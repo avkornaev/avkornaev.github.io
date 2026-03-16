@@ -1,7 +1,16 @@
-- title: "TODO: Add dissertation title"
-  year: 2026
-  degree: "PhD in Computer Science"
-  institution: "TODO: Add institution"
-  advisor: "TODO: Add advisor"
-  pdf: ""
-  description: "TODO: Replace with a short thesis description."
+
+- title: "Improving the dynamic characteristics of bearing units in rolling mills"
+  year: 2008
+  degree: "Candidate of Science (PhD) in Dynamics and Strength of Machines, Instruments, and Devices"
+  institution: "Orel State University"
+  advisor: "Leonid Savin"
+  pdf: "https://search.rsl.ru/ru/record/01003446707"
+  description: "Thesis is dedicated to the development of a method for improving the dynamic characteristics of bearing units in rolling mills. The method is based on the use of a special device that allows to measure the dynamic characteristics of the bearing unit and to improve the dynamic characteristics of the bearing unit."
+
+- title: "Modeling flows of fluids with complex rheology in thin channels of hydromechanical systems"
+  year: 2018
+  degree: "Doctor of Science in Mathematical Modeling, Numerical Methods, and Computer Simulations"
+  institution: "Tula State University"
+  advisor: "Leonid Savin"
+  pdf: "https://search.rsl.ru/ru/record/01008716771"
+  description: "This doctoral dissertation develops mathematical models and numerical methods for simulating flows of complex rheological media (dilatant, pseudoplastic, and plastic fluids) in thin channels of hydromechanical systems. The author proposes new variational principles generalizing the approaches of Korovchinsky and Lagrange, which allow eliminating pressure as an unknown function when determining velocity fields and expanding the class of solvable problems. A generalized Reynolds equation in bicylindrical coordinates is derived for non-Newtonian flows between misaligned cylinders, and efficient numerical algorithms combining finite difference, control volume, and variational methods are implemented. The research demonstrates that dilatant fluids can reduce friction losses by over 15% while improving damping characteristics, and experimental validation with polymer and ultrafine additives shows friction reduction of approximately 10% in journal bearings."

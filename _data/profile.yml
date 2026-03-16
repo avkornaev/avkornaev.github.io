@@ -1,17 +1,18 @@
 name: Alexei Kornaev
-title: Research Scientist in AI, Computer Vision, and Medical Robotics
+title: Research Scientist in Physics and AI, including Deep Learning, Computer Vision, Physics-informed neural networks, AI in Medicine, and Robotics
 affiliations:
-  - "Placeholder Lab of Medical AI, Placeholder University"
-  - "Affiliated Researcher, Placeholder Robotics Institute"
-location: Moscow, Russia
-email: alexei.kornaev@example.com
+  - "Center for Top-Level Educational Programs in AI, Innopolis University, Innopolis, Republic of Tatarstan, Russia"
+  - "N.N. Blokhin National Medical Research Center of Oncology, Moscow, Russia"
+location: Orel, Russia
+email: a.kornaev@innopolis.ru
 photo: /assets/img/alexei.jpg
 research_interests:
   - Computer vision for clinical decision support
   - Foundation models for medical imaging
-  - Surgical and interventional robotics
+  - Physics-informed neural networks and AI-empowered physics
   - Multimodal learning for healthcare
   - Reliable AI for real-world deployment
+  - Robotics
 bio_short: >
   Alexei Kornaev is a researcher working at the intersection of computer vision,
   machine learning, medical AI, and robotics. His work focuses on clinically useful
@@ -31,9 +32,9 @@ research_agenda:
       Connecting vision, control, and human interaction for assistive and
       interventional robotic systems.
 education:
-  - degree: PhD in Computer Science
-    institution: Placeholder University
-    year: 2026
-  - degree: MSc in Applied Mathematics
-    institution: Placeholder Institute of Technology
-    year: 2022
+  - degree: Doctor of Science in Mathematical Modeling, Numerical Methods, and Computer Simulations
+    institution: Tula State University
+    year: 2018
+  - degree: Candidate of Science (PhD) in Dynamics and Strength of Machines, Instruments, and Devices
+    institution: Orel State University
+    year: 2008
