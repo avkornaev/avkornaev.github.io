@@ -9,7 +9,12 @@ title: Home
   <div>
     <h1>{{ profile.name }}</h1>
     <p class="lede">{{ profile.title }}</p>
-    <p>{{ profile.bio_short }}</p>
+    <p>
+      Alexei Kornaev works on machine learning and computer vision for scientific and clinical settings,
+      with a focus on medical imaging, radiogenomics, trustworthy AI, physics-informed learning,
+      and robotics. His research combines method development with questions of uncertainty,
+      robustness, interpretability, and deployment in high-stakes environments.
+    </p>
     <div class="hero-meta">
       {% for affiliation in profile.affiliations %}
         <div>{{ affiliation }}</div>
@@ -37,17 +42,28 @@ title: Home
 <section class="section-block">
   <h2>Research agenda</h2>
   <p>
-    This website focuses on research problems rather than a paper list alone. The aim is to develop AI systems
-    that can operate in clinical and embodied settings where data are multimodal, decisions are high stakes,
-    and deployment constraints matter as much as benchmark performance.
+    The central theme of this work is reliable machine learning where physical constraints,
+    medical context, and real-world variability matter. This includes uncertainty-aware prediction,
+    physics-informed modeling, multimodal analysis of imaging and molecular data, and perception-action
+    pipelines for embodied systems.
   </p>
   <div class="agenda-grid">
-    {% for item in profile.research_agenda %}
-      <article class="info-card">
-        <h3>{{ item.title }}</h3>
-        <p>{{ item.text }}</p>
-      </article>
-    {% endfor %}
+    <article class="info-card">
+      <h3>Trustworthy and uncertainty-aware ML</h3>
+      <p>Calibration, uncertainty estimation, failure analysis, and robust evaluation for high-stakes prediction tasks.</p>
+    </article>
+    <article class="info-card">
+      <h3>Physics-informed learning</h3>
+      <p>Neural and variational methods for scientific computing, inverse problems, and flow modeling in complex physical systems.</p>
+    </article>
+    <article class="info-card">
+      <h3>Medical AI and radiogenomics</h3>
+      <p>Joint analysis of medical imaging, pathology, molecular information, and clinical context for diagnosis and prognosis.</p>
+    </article>
+    <article class="info-card">
+      <h3>Robotics and embodied AI</h3>
+      <p>Perception, planning, and vision-language-action systems for robotic assistance and interactive environments.</p>
+    </article>
   </div>
 </section>
 
@@ -55,20 +71,20 @@ title: Home
   <h2>Selected directions</h2>
   <div class="card-grid">
     <article class="info-card">
-      <h3>AI for medical imaging</h3>
-      <p>Learning from heterogeneous image sources with limited annotation, shift-aware evaluation, and clinically grounded targets.</p>
+      <h3>Medical imaging and multimodal diagnosis</h3>
+      <p>Deep learning for radiology, pathology, and related multimodal pipelines that connect image evidence with clinical and biological context.</p>
     </article>
     <article class="info-card">
-      <h3>Vision-language systems</h3>
-      <p>Designing multimodal models that connect visual evidence, reports, and structured medical context.</p>
+      <h3>PINNs and scientific machine learning</h3>
+      <p>Physics-informed neural networks, neural surrogates, and variational formulations for computational mechanics and fluid-flow problems.</p>
     </article>
     <article class="info-card">
-      <h3>Robotics in healthcare</h3>
-      <p>Integrating perception and planning for assistive and interventional robotic workflows.</p>
+      <h3>Reliable AI in practice</h3>
+      <p>Generalization under shift, uncertainty quantification, reproducibility, and evaluation protocols for deployment-oriented ML.</p>
     </article>
     <article class="info-card">
-      <h3>Reliable deployment</h3>
-      <p>Improving calibration, uncertainty estimation, and evaluation protocols for real-world use.</p>
+      <h3>Vision, language, and action</h3>
+      <p>Multimodal systems that connect perception with reasoning and control in robotics and interactive AI settings.</p>
     </article>
   </div>
 </section>

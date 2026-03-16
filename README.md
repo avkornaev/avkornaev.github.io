@@ -44,19 +44,41 @@ Current affiliations:
 
 This repository contains the source code and content for the website. Publications are maintained through an ORCID-based synchronization workflow and stored in BibTeX for use by the Jekyll site.
 
-## Maintenance
+## Local build
 
-Local development:
+Install dependencies and run the local server:
 
 ```bash
 bundle install
 bundle exec jekyll serve
 ```
 
-Publication sync:
+The site will be available at `http://127.0.0.1:4000`.
+
+## Deployment
+
+Deployment is handled through GitHub Actions for GitHub Pages.
+
+To publish:
+
+1. Push the repository to GitHub.
+2. In the repository settings, open `Pages`.
+3. Set the source to `GitHub Actions`.
+4. Push changes to the default branch.
+
+For the user site at `https://avkornaev.github.io`, the repository should remain named `avkornaev.github.io`.
+
+## Publication maintenance
+
+Publications are synchronized from ORCID into:
+
+- `bibliography/publications.bib`
+- `_data/publications.json`
+
+Run the sync locally with:
 
 ```bash
 py -3 scripts/sync_publications.py
 ```
 
-Deployment is handled through GitHub Actions for GitHub Pages.
+The repository also includes a scheduled GitHub Actions workflow for regular ORCID updates.

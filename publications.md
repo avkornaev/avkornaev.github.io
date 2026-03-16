@@ -1,7 +1,7 @@
 ---
 title: Publications
 permalink: /publications/
-intro: Publications are synced from ORCID into BibTeX and structured site data. By default this page shows the full all-years list, with optional filters for recent subsets, conference papers, and theses.
+intro: Journal papers, conference publications, and theses.
 ---
 {% assign publication_items = site.data.publications.items | sort: "year" | reverse %}
 {% assign thesis_items = site.data.theses | sort: "year" | reverse %}
@@ -10,14 +10,7 @@ intro: Publications are synced from ORCID into BibTeX and structured site data. 
 {% assign current_year = site.time | date: "%Y" | plus: 0 %}
 
 <section class="section-block">
-  <h2>Automatic sources</h2>
-  <p class="muted-text">
-    This site is configured to sync publications automatically from ORCID on a schedule. Google Scholar is kept as a manual reference because it does not provide a stable public API for this use case, while Scopus and Web of Science can be added later if API credentials are available.
-  </p>
-</section>
-
-<section class="section-block">
-  <h2>Filter publication lists</h2>
+  <h2>Publications</h2>
   <div class="filter-bar">
     <label for="publication-window-filter">Quick range:</label>
     <select id="publication-window-filter">
@@ -38,7 +31,6 @@ intro: Publications are synced from ORCID into BibTeX and structured site data. 
 </section>
 
 <section class="section-block">
-  <h2>Publication list</h2>
   <div id="publication-results">
     {% for item in publication_items %}
       {% unless item.category == "conference" or item.category == "thesis" %}
@@ -103,7 +95,7 @@ intro: Publications are synced from ORCID into BibTeX and structured site data. 
 </section>
 
 <section class="section-block">
-  <h2>Full bibliography</h2>
+  <h2>Complete bibliography</h2>
   <div class="bibliography">
     {% bibliography %}
   </div>

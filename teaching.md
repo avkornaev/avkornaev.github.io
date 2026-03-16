@@ -1,30 +1,32 @@
 ---
 title: Teaching
 permalink: /teaching/
-intro: This page can grow incrementally as courses, lecture materials, and supervision records are added.
+intro: Teaching in machine learning, computer vision, medical AI, and related computational methods.
 ---
-## Courses
+## Course areas
 
-- **Medical Computer Vision**  
-  Placeholder graduate course on learning-based image analysis for diagnostics and intervention support.
-- **Machine Learning for Robotics**  
-  Placeholder course on perception, planning, and control with modern learning methods.
-- **Reliable AI in Healthcare**  
-  Placeholder seminar on evaluation, regulation, safety, and deployment constraints.
+- **Computer Vision**  
+  Lecture-based and practical materials on image formation, feature learning, convolutional and transformer models, segmentation, and generative methods.
+- **Machine Learning and Deep Learning**  
+  Core methods for supervised learning, optimization, representation learning, and model evaluation.
+- **Medical AI**  
+  Topics in medical image analysis, multimodal clinical data, reliability, and deployment-oriented evaluation.
+- **AI for Robotics and Embodied Systems**  
+  Perception, control, planning, and multimodal reasoning for interactive systems.
 
 ## Course materials
 
 - **Computer Vision 2026 LaTeX project**  
-  The repository now includes a full course-materials project at [`/teaching/cv-2026`](G:/avkornaev.github.io/teaching/cv-2026), including portable LaTeX sources in [`/teaching/cv-2026/sources`](G:/avkornaev.github.io/teaching/cv-2026/sources) and student-facing weekly PDFs and notebooks in the `Week_XX` folders.
+  Lecture sources, weekly PDFs, and notebooks are maintained in the repository under [the `teaching/cv-2026/` directory on GitHub](https://github.com/avkornaev/avkornaev.github.io/tree/main/teaching/cv-2026).
 
-## Lecture materials
+## Materials and format
 
-- Week-by-week lecture slides can be linked here.
-- Practical assignments, reading lists, and starter code can be added per course.
-- If materials are hosted elsewhere, link to GitHub repositories or institutional course pages.
+- Slides and written lecture notes
+- Practical notebooks and assignments
+- Reading lists for selected topics
+- Project-oriented materials for advanced courses
 
 ## Student supervision
 
-- Placeholder MSc thesis topic: domain adaptation for multimodal medical imaging.
-- Placeholder BSc project: uncertainty-aware segmentation in endoscopic video.
-- Placeholder reading group: vision-language models for clinical workflows.
+- Supervision has included topics in medical imaging, trustworthy machine learning, scientific machine learning, and computer vision.
+- Specific thesis titles, student names, and defended projects can be added here as they are finalized.

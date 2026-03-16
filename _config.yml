@@ -22,7 +22,7 @@ scholar:
   query: "@*"
   group_by: year
   group_order: descending
-  sort_by: year,month
+  sort_by: year, month
   order: descending
 
 collections:

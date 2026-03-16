@@ -1,7 +1,7 @@
 ---
 title: Contact
 permalink: /contact/
-intro: Keep contact information centralized in the data files so it remains easy to update later.
+intro: Professional contact details and researcher profiles.
 ---
 {% assign profile = site.data.profile %}
 {% assign links = site.data.links %}

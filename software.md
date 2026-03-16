@@ -1,23 +1,21 @@
 ---
 title: Software
 permalink: /software/
-intro: Use this page for maintained research code, datasets, benchmarks, and demos that support reproducible work.
+intro: Research software, course materials, and reproducible artifacts related to machine learning, computer vision, medical AI, and scientific computing.
 ---
-## Repositories
+## Public code and materials
 
-- **clinical-vision-benchmark**  
-  Placeholder benchmark suite for robustness evaluation in medical imaging.
-- **med-robot-planning**  
-  Placeholder repository for perception-guided robotic planning experiments.
-- **multimodal-clinical-vision**  
-  Placeholder codebase for vision-language learning with clinical image data.
+- **Website repository**  
+  This site and its content are maintained in the public repository: [avkornaev/avkornaev.github.io](https://github.com/avkornaev/avkornaev.github.io).
+- **Computer Vision 2026 course materials**  
+  LaTeX lecture sources, PDFs, and practical notebooks are available in [`teaching/cv-2026/`](https://github.com/avkornaev/avkornaev.github.io/tree/main/teaching/cv-2026).
 
-## Datasets
+## Reproducible artifacts
 
-- Placeholder dataset for longitudinal multimodal patient trajectories.
-- Placeholder dataset for surgical scene segmentation with uncertainty labels.
+- Publication-linked code, datasets, slides, and project pages are attached to bibliography entries when available.
+- Additional standalone research repositories can be listed here as they are prepared for public release.
 
-## Demos
+## Planned additions
 
-- Placeholder interactive demo for case retrieval and report-grounded image understanding.
-- Placeholder video demonstration for assistive robotic task execution.
+- TODO: Add links to public repositories for medical AI, PINNs, radiogenomics, or robotics projects that are ready for external use.
+- TODO: Add links to released datasets or benchmark packages when public distribution is possible.
