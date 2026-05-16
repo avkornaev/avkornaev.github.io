@@ -74,6 +74,30 @@ When asked to make changes:
 3. preserve buildability
 4. summarize what the user should edit next
 
+## Current content-upgrade task
+
+Near-term priority:
+- improve content without changing the visual design substantially
+- audit all public pages for placeholder or draft-like text
+- improve research, teaching, software, CV, and publication presentation
+- prepare publication and course content for reuse in CVs, reports, and applications
+
+Publication enrichment:
+- keep BibTeX as the source of truth
+- generate copy-paste-ready Markdown exports under `generated/`
+- do not invent missing metadata
+- mark uncertain fields as `TODO-check`
+
+Visual summary workflow:
+- do not generate images automatically
+- create image-generation prompts under `prompts/paper_images/` and `prompts/course_images/`
+- use a unified scientific graphical-abstract style
+- no fake results, logos, or unsupported claims
+
+Teaching workflow:
+- maintain structured course data in `_data/`
+- include level, role, years, topics, labs, tools, and links when available
+
 ## Non-goals
 - No blog engine unless explicitly requested
 - No CMS
