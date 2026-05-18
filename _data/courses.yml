@@ -1,0 +1,213 @@
+schema_version: 1
+generated_at: '2026-05-16T20:20:14Z'
+source_files:
+- teaching.md
+- teaching/cv-2026/README.md
+- teaching/cv-2026/sources/week_*/content.tex
+- teaching/cv-2026/Week_*/*.ipynb
+schema:
+  id: Stable course identifier.
+  title: Public course title.
+  level: Course level such as undergraduate, graduate, professional, or TODO-check.
+  role: Instructor role; TODO-check when not explicit in current content.
+  years: Years when the course/materials were offered or prepared.
+  institution: Institution or program owner; TODO-check when not explicit.
+  status: active, archived, in_preparation, or TODO-check.
+  topics: Reusable topic list for website, CV, reports, and applications.
+  tools: Libraries, platforms, or technical tools visible in materials.
+  links: Public links only; no local filesystem paths.
+  weeks: Structured week/lab records with known material paths and TODO-check markers.
+  todo: Review notes for uncertain fields.
+courses:
+- id: computer-vision-2026
+  title: Computer Vision
+  short_title: CV-2026
+  level: TODO-check
+  role: TODO-check
+  years:
+  - 2026
+  term: Spring 2026
+  institution: TODO-check
+  status: in_preparation
+  summary: Lecture sources, weekly materials, and practical notebooks for a computer vision course covering classical pipelines, deep learning, segmentation, generative models, and vision-language methods.
+  topics:
+  - classical computer vision pipeline
+  - feature extraction
+  - kernels and convolution
+  - convolutional neural networks
+  - visual transformers
+  - generative models
+  - flow matching
+  - contrastive vision-language learning
+  - CLIP and parameter-efficient fine-tuning
+  - semantic and instance segmentation
+  - language-guided segmentation
+  - landmark detection and head pose estimation
+  - TODO-check weeks 08-15 topics
+  tools:
+  - Python
+  - Jupyter notebooks
+  - LaTeX
+  - PyTorch TODO-check
+  - Transformers TODO-check
+  - CLIP/CLIPSeg TODO-check
+  links:
+    materials_repository: https://github.com/avkornaev/avkornaev.github.io/tree/main/teaching/cv-2026
+    site_page: /teaching/
+  weeks:
+  - week: 1
+    title: Course framing, classical computer vision, and feature extraction
+    topics:
+    - course framing and expectations
+    - classical computer vision pipeline
+    - feature extraction foundations
+    labs:
+    - title: Feature Extraction and ML
+      path: teaching/cv-2026/Week_01/Lab_1_Feature_Extraction_and_ML_student.ipynb
+    status: draft
+  - week: 2
+    title: Kernels, convolution, and CNN training basics
+    topics:
+    - linear and non-linear kernels
+    - convolution as a learned feature extractor
+    - CNN training basics
+    labs:
+    - title: Hands-on Kernels
+      path: teaching/cv-2026/Week_02/Hands_on_Kernels.ipynb
+    - title: Convolutional Neural Network
+      path: teaching/cv-2026/Week_02/Lab2_Convolutional_Neural_Network-2026.ipynb
+    - title: Linear Kernel
+      path: teaching/cv-2026/Week_02/Linear_kernel.ipynb
+    status: draft
+  - week: 3
+    title: Vision transformers
+    topics:
+    - patch embeddings
+    - self-attention in vision
+    - transformer scaling tradeoffs
+    labs:
+    - title: Visual Transformers
+      path: teaching/cv-2026/Week_03/Lab3_Visual_Transformers-2026.ipynb
+    status: draft
+  - week: 4
+    title: Generative models and flow matching
+    topics:
+    - generative modeling objectives
+    - diffusion and flow matching intuition
+    - sampling and controllability
+    labs:
+    - title: Generative Models
+      path: teaching/cv-2026/Week_04/Lab4_Generative_models.ipynb
+    - title: Flow Matching
+      path: teaching/cv-2026/Week_04/Week_04_Hands_on_Flow_Matching.ipynb
+    status: draft
+  - week: 5
+    title: CLIP, transfer learning, and parameter-efficient fine-tuning
+    topics:
+    - contrastive vision-language training
+    - transfer learning with CLIP
+    - parameter-efficient fine-tuning
+    labs:
+    - title: CLIP Training
+      path: teaching/cv-2026/Week_05/Lab5_CLIP_training.ipynb
+    - title: CLIP LoRA
+      path: teaching/cv-2026/Week_05/Lab5_CLIP_LoRA.ipynb
+    status: draft
+  - week: 6
+    title: Image segmentation and language-guided segmentation
+    topics:
+    - semantic vs. instance segmentation
+    - decoder design and dense prediction
+    - language-guided segmentation
+    labs:
+    - title: Image Segmentation
+      path: teaching/cv-2026/Week_06/Lab6_Image_Segmentation.ipynb
+    - title: CLIPSeg
+      path: teaching/cv-2026/Week_06/Hands_on_CLIPSeg.ipynb
+    status: draft
+  - week: 7
+    title: Landmark detection and pose estimation
+    topics:
+    - landmark detection
+    - pose estimation
+    - evaluation metrics for face analysis
+    labs:
+    - title: Head Pose
+      path: teaching/cv-2026/Week_07/Head_pose.ipynb
+    status: draft
+  - week: 8
+    title: Mid-course synthesis TODO-check
+    topics:
+    - summarize the first half of the course
+    - highlight recurring design patterns
+    - prepare students for the next sequence of topics
+    labs: []
+    status: placeholder
+  - week: 9
+    title: TODO-check
+    topics:
+    - TODO-check main learning objective
+    - TODO-check central model or method family
+    - TODO-check practical lab connection
+    labs: []
+    status: placeholder
+  - week: 10
+    title: TODO-check
+    topics:
+    - TODO-check lecture topic
+    - TODO-check narrative arc
+    - TODO-check practical exercise
+    labs: []
+    status: placeholder
+  - week: 11
+    title: TODO-check
+    topics:
+    - TODO-check lecture topic
+    - TODO-check narrative arc
+    - TODO-check practical exercise
+    labs: []
+    status: placeholder
+  - week: 12
+    title: TODO-check
+    topics:
+    - TODO-check lecture topic
+    - TODO-check narrative arc
+    - TODO-check practical exercise
+    labs: []
+    status: placeholder
+  - week: 13
+    title: TODO-check
+    topics:
+    - TODO-check lecture topic
+    - TODO-check narrative arc
+    - TODO-check practical exercise
+    labs: []
+    status: placeholder
+  - week: 14
+    title: TODO-check
+    topics:
+    - TODO-check lecture topic
+    - TODO-check narrative arc
+    - TODO-check practical exercise
+    labs: []
+    status: placeholder
+  - week: 15
+    title: TODO-check
+    topics:
+    - TODO-check lecture topic
+    - TODO-check narrative arc
+    - TODO-check practical exercise
+    labs: []
+    status: placeholder
+  todo:
+  - TODO-check course level, role, institution, assessment policy, and whether Spring 2026 is the correct public term.
+  - TODO-check weeks 08-15 before rendering on public pages.
+course_areas:
+- title: Computer Vision
+  status: represented-by-computer-vision-2026
+- title: Machine Learning and Deep Learning
+  status: TODO-check course history and reusable materials
+- title: Medical AI
+  status: TODO-check course history and reusable materials
+- title: AI for Robotics and Embodied Systems
+  status: TODO-check course history and reusable materials
