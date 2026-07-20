@@ -1,7 +1,49 @@
 {
-  "generated_at": "2026-07-13T07:41:17Z",
+  "generated_at": "2026-07-20T07:31:34Z",
   "source": "ORCID",
   "items": [
+    {
+      "key": "10.33979/2073-7432-2026-2(93)-67-75",
+      "title": "PREVENTIVE DIAGNOSTICS OF SLIDING BEARING UNITS",
+      "year": 2026,
+      "month": null,
+      "day": null,
+      "type": "journal-article",
+      "venue": "World of transport and technological machines",
+      "doi": "10.33979/2073-7432-2026-2(93)-67-75",
+      "url": "https://doi.org/10.33979/2073-7432-2026-2(93)-67-75",
+      "paper": "https://doi.org/10.33979/2073-7432-2026-2(93)-67-75",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "note": "",
+      "authors": [
+        {
+          "given": "Aleksey Yrievich",
+          "family": "Rodichev",
+          "full": "Rodichev, Aleksey Yrievich"
+        },
+        {
+          "given": "Leonid Alekseevich",
+          "family": "Savin",
+          "full": "Savin, Leonid Alekseevich"
+        },
+        {
+          "given": "Irina Vladimirovna",
+          "family": "Rodicheva",
+          "full": "Rodicheva, Irina Vladimirovna"
+        },
+        {
+          "given": "Elena Nikolaevna",
+          "family": "Gryadunova",
+          "full": "Gryadunova, Elena Nikolaevna"
+        }
+      ],
+      "entry_type": "article",
+      "bibtex_key": "rodichev2026preventive-diagnostics-of-sliding-bearin",
+      "category": "publication"
+    },
     {
       "key": "10.1109/access.2025.3566772",
       "title": "Uncertainty Estimation in Cardio Landmark Detection and Heart Disease Diagnosis on Chest X-Ray Images",
