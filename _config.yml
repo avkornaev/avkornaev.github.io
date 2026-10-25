@@ -36,6 +36,7 @@ defaults:
       layout: page
 
 exclude:
+  - generated
   - README.md
   - Gemfile
   - Gemfile.lock

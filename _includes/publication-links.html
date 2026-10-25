@@ -1,0 +1,8 @@
+{% assign publication = include.item %}
+{% if publication.paper and publication.paper != "" %}<a href="{{ publication.paper | escape }}">Paper</a>{% endif %}
+{% if publication.preprint and publication.preprint != "" %}<a href="{{ publication.preprint | escape }}">Preprint</a>{% endif %}
+{% if publication.code and publication.code != "" %}<a href="{{ publication.code | escape }}">Code</a>{% endif %}
+{% if publication.project and publication.project != "" %}<a href="{{ publication.project | escape }}">Project</a>{% endif %}
+{% if publication.slides and publication.slides != "" %}<a href="{{ publication.slides | escape }}">Slides</a>{% endif %}
+{% if publication.dataset and publication.dataset != "" %}<a href="{{ publication.dataset | escape }}">Dataset</a>{% endif %}
+{% if publication.doi and publication.doi != "" %}<a href="https://doi.org/{{ publication.doi | escape }}">DOI</a>{% endif %}

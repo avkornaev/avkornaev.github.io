@@ -19,6 +19,26 @@ schema:
   weeks: Structured week/lab records with known material paths and TODO-check markers.
   todo: Review notes for uncertain fields.
 courses:
+- id: intro-to-ml-2026
+  title: Introduction to Machine Learning
+  short_title: ML · 2026
+  years:
+  - 2026
+  summary: Lecture slides, an electronic textbook, tutorial notebooks, labs, and practice quizzes.
+  topics:
+  - supervised learning
+  - optimization
+  - representation learning
+  - model evaluation
+  tools:
+  - Python
+  - Jupyter notebooks
+  - Quarto
+  image: /assets/images/courses/intro-to-ml-2026.webp
+  image_alt: Pencil sketch of a horse beside a tractor, the Lecture 1 graphical abstract.
+  image_source: https://avkornaev.github.io/Intro-to-ML-2026/assets/figures/portal/week-01.webp
+  links:
+    course_site: https://avkornaev.github.io/Intro-to-ML-2026/
 - id: computer-vision-2026
   title: Computer Vision
   short_title: CV-2026

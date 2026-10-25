@@ -16,6 +16,18 @@ intro: Teaching in machine learning, computer vision, medical AI, and related co
 
 ## Course materials
 
+{% assign ml_course = site.data.courses.courses | where: "id", "intro-to-ml-2026" | first %}
+<article class="info-card teaching-course-card">
+  <a href="{{ ml_course.links.course_site }}" aria-label="{{ ml_course.title }} — course website">
+    <img src="{{ ml_course.image | relative_url }}" alt="{{ ml_course.image_alt }}" width="160" height="160" loading="lazy">
+  </a>
+  <div>
+    <h3><a href="{{ ml_course.links.course_site }}">{{ ml_course.title }} · {{ ml_course.years | join: ", " }}</a></h3>
+    <p>{{ ml_course.summary }}</p>
+    <p><a href="{{ ml_course.links.course_site }}">Open course website →</a></p>
+  </div>
+</article>
+
 - **Computer Vision 2026 LaTeX project**  
   Lecture sources, weekly PDFs, and notebooks are maintained in the repository under [the `teaching/cv-2026/` directory on GitHub](https://github.com/avkornaev/avkornaev.github.io/tree/main/teaching/cv-2026).
 

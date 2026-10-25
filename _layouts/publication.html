@@ -3,6 +3,11 @@
   <div class="publication-links">
     {% if entry.paper %}
       <a href="{{ entry.paper }}">Paper</a>
+    {% elsif entry.url %}
+      <a href="{{ entry.url }}">Paper</a>
+    {% endif %}
+    {% if entry.preprint %}
+      <a href="{{ entry.preprint }}">Preprint</a>
     {% endif %}
     {% if entry.code %}
       <a href="{{ entry.code }}">Code</a>
