@@ -90,6 +90,50 @@
       "paper": "https://openreview.net/forum?id=XAUDCvtSSz"
     },
     {
+      "key": "10.33979/2073-7432-2026-2(93)-67-75",
+      "bibtex_key": "rodichev2026preventive-diagnostics-of-sliding-bearin",
+      "title": "PREVENTIVE DIAGNOSTICS OF SLIDING BEARING UNITS",
+      "year": 2026,
+      "type": "journal-article",
+      "entry_type": "article",
+      "category": "publication",
+      "venue": "World of transport and technological machines",
+      "doi": "10.33979/2073-7432-2026-2(93)-67-75",
+      "url": "http://dx.doi.org/10.33979/2073-7432-2026-2(93)-67-75",
+      "authors": [
+        {
+          "given": "Aleksey Yrievich",
+          "family": "Rodichev",
+          "full": "Aleksey Yrievich Rodichev"
+        },
+        {
+          "given": "Leonid Alekseevich",
+          "family": "Savin",
+          "full": "Leonid Alekseevich Savin"
+        },
+        {
+          "given": "Irina Vladimirovna",
+          "family": "Rodicheva",
+          "full": "Irina Vladimirovna Rodicheva"
+        },
+        {
+          "given": "Elena Nikolaevna",
+          "family": "Gryadunova",
+          "full": "Elena Nikolaevna Gryadunova"
+        }
+      ],
+      "volume": "24",
+      "number": "2(93)",
+      "pages": "67–75",
+      "note": "",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "preprint": "",
+      "paper": "https://doi.org/10.33979/2073-7432-2026-2(93)-67-75"
+    },
+    {
       "key": "nurtdinov2026rl",
       "bibtex_key": "nurtdinov2026rl",
       "title": "RL Bootstrapping of OpenVLA-OFT for a Novel Robot Embodiment",
