@@ -1,7 +1,7 @@
 ---
 title: Publications
 permalink: /publications/
-intro: Journal papers, conference publications, and theses.
+intro: Journal papers, conference publications, preprints, and theses.
 ---
 {% assign publication_items = site.data.publications.items | sort: "year" | reverse %}
 {% assign thesis_items = site.data.theses | sort: "year" | reverse %}
@@ -36,19 +36,14 @@ intro: Journal papers, conference publications, and theses.
       {% unless item.category == "conference" or item.category == "thesis" %}
         <article class="publication-item js-filterable-item" data-year="{{ item.year }}" data-kind="publication">
           <div class="publication-citation">
-            <strong>{{ item.title }}</strong><br>
+            <strong>{{ item.title | escape }}</strong><br>
             {% assign author_names = item.authors | map: "full" | join: ", " %}
-            {{ author_names }}.
-            {% if item.venue %}<em>{{ item.venue }}</em>. {% endif %}
+            {{ author_names | escape }}.
+            {% if item.venue != "" %}<em>{{ item.venue | escape }}</em>. {% endif %}
             {{ item.year }}.
           </div>
           <div class="publication-links">
-            {% if item.paper %}<a href="{{ item.paper }}">Paper</a>{% endif %}
-            {% if item.code %}<a href="{{ item.code }}">Code</a>{% endif %}
-            {% if item.project %}<a href="{{ item.project }}">Project</a>{% endif %}
-            {% if item.slides %}<a href="{{ item.slides }}">Slides</a>{% endif %}
-            {% if item.dataset %}<a href="{{ item.dataset }}">Dataset</a>{% endif %}
-            {% if item.doi %}<a href="https://doi.org/{{ item.doi }}">DOI</a>{% endif %}
+            {% include publication-links.html item=item %}
           </div>
         </article>
       {% endunless %}
@@ -62,13 +57,13 @@ intro: Journal papers, conference publications, and theses.
   <ul class="list-clean">
     {% for item in conference_items %}
       <li class="js-filterable-item" data-year="{{ item.year }}" data-kind="conference">
-        <strong>{{ item.title }}</strong>, {% if item.venue %}<em>{{ item.venue }}</em>, {% endif %}{{ item.year }}.
-        {% if item.doi %}<a href="https://doi.org/{{ item.doi }}">DOI</a>{% endif %}
+        <strong>{{ item.title | escape }}</strong><br>
+        {% assign author_names = item.authors | map: "full" | join: ", " %}
+        {{ author_names | escape }}.
+        {% if item.venue != "" %}<em>{{ item.venue | escape }}</em>, {% endif %}{{ item.year }}.
+        <div class="publication-links">{% include publication-links.html item=item %}</div>
       </li>
     {% endfor %}
-    {% if conference_items.size == 0 %}
-      <li>Conference entries will appear here when available in ORCID or publication overrides.</li>
-    {% endif %}
   </ul>
   <p id="conference-empty" class="muted-text" hidden>No conference papers match the selected year range.</p>
 </section>

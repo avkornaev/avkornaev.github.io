@@ -8,13 +8,23 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: read
+    env:
+      JEKYLL_ENV: production
     steps:
-    - uses: actions/checkout@v4
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.1"
+          bundler-cache: false
+      - name: Install declared site dependencies
+        run: |
+          gem install bundler
+          bundle config set path vendor/bundle
+          bundle install
+      - name: Check publication maintenance
+        run: python3 -m unittest discover -s scripts -p 'test_*.py'
+      - name: Build the complete site
+        run: bundle exec jekyll build --future

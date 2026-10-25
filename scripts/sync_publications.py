@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import argparse
 import json
 import re
 import sys
@@ -10,10 +11,12 @@ import urllib.request
 from pathlib import Path
 
 
+from publication_data import build_items, dump_bibtex, merge_entries, parse_bibtex, write_views
+
+
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_PATH = ROOT / "_data" / "publication_sources.yml"
 OVERRIDES_PATH = ROOT / "_data" / "publication_overrides.json"
-PUBLICATIONS_JSON_PATH = ROOT / "_data" / "publications.json"
 BIB_PATH = ROOT / "bibliography" / "publications.bib"
 
 
@@ -179,7 +182,7 @@ def date_part(publication_date, key):
     return field.get("value")
 
 
-def main():
+def fetch_orcid_items():
     sources = read_simple_yaml(SOURCES_PATH)
     orcid = sources.get("orcid")
     if not orcid:
@@ -227,7 +230,10 @@ def main():
         if not authors:
             author_names = override.get("authors", [])
             authors = [{"given": "", "family": name, "full": name} for name in author_names]
-        author_bibtex = " and ".join([author["full"] for author in authors]) if authors else "Alexei Kornaev"
+        if not authors:
+            print("Skipped ORCID record without author metadata: {}".format(title), file=sys.stderr)
+            continue
+        author_bibtex = " and ".join([author["full"] for author in authors])
 
         item = {
             "key": item_key,
@@ -282,23 +288,25 @@ def main():
         items.append(item)
         time.sleep(0.1)
 
-    items.sort(key=lambda item: (item["year"], item["month"] or 0, item["title"]), reverse=True)
+    return items
 
-    json_payload = {
-        "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        "source": "ORCID",
-        "items": [
-            {
-                key: value
-                for key, value in item.items()
-                if key != "bibtex" and key != "author_bibtex" and key != "first_author_family"
-            }
-            for item in items
-        ],
-    }
-    PUBLICATIONS_JSON_PATH.write_text(json.dumps(json_payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    BIB_PATH.write_text("\n\n".join(item["bibtex"] for item in items) + "\n", encoding="utf-8")
-    print("Synced {} works from ORCID {}".format(len(items), orcid))
+
+def main():
+    parser = argparse.ArgumentParser(description="Merge ORCID additions into the curated BibTeX and rebuild publication views.")
+    parser.add_argument("--offline", action="store_true", help="Rebuild JSON and Markdown from BibTeX without network access")
+    args = parser.parse_args()
+    entries = parse_bibtex(BIB_PATH.read_text(encoding="utf-8"))
+    build_items(entries)  # Reject invalid or duplicate local records before fetching/writing.
+    if not args.offline:
+        remote = fetch_orcid_items()
+        incoming = [entry for item in remote for entry in parse_bibtex(item["bibtex"])]
+        entries = merge_entries(entries, incoming)
+    build_items(entries)
+    if not args.offline:
+        BIB_PATH.write_text(dump_bibtex(entries), encoding="utf-8")
+    items = write_views(ROOT, entries)
+    print("Rebuilt {} publications from bibliography/publications.bib{}".format(
+        len(items), " (offline)" if args.offline else " after merging ORCID additions"))
 
 
 if __name__ == "__main__":
