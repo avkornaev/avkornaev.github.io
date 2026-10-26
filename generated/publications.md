@@ -2,6 +2,7 @@
 
 <!-- Generated from bibliography/publications.bib; do not edit here. -->
 
+- Yuri Kazakov, Leonid Savin, Alexei Kornaev (2026). **Cartography-guided adaptive replay for robust reinforcement learning in nonlinear engineering control systems**. . [Paper](https://doi.org/10.2139/ssrn.7656103)
 - Hadi Salloum, Maximilian Mifsud Bonici, Sinan Ibrahim, Pavel Osinenko, Alexei Kornaev (2026). **Diversity-Aware Adaptive Collocation for Physics-Informed Neural Networks via Sparse QUBO Optimization and Hybrid Coresets**. AI&PDE: ICLR 2026 Workshop on AI and Partial Differential Equations. [Paper](https://openreview.net/forum?id=PcZbVU4Ap7)
 - Denis Degtiarev, Anastassiya Ryabkova, Alexei Kornaev (2026). **LLM-Driven Loss Balancing for Physics-Informed Neural Networks**. AI&PDE: ICLR 2026 Workshop on AI and Partial Differential Equations. [Paper](https://openreview.net/forum?id=XAUDCvtSSz)
 - Aleksey Yrievich Rodichev, Leonid Alekseevich Savin, Irina Vladimirovna Rodicheva, Elena Nikolaevna Gryadunova (2026). **PREVENTIVE DIAGNOSTICS OF SLIDING BEARING UNITS**. World of transport and technological machines. [Paper](https://doi.org/10.33979/2073-7432-2026-2(93)-67-75)

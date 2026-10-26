@@ -2,6 +2,45 @@
   "source_of_truth": "bibliography/publications.bib",
   "items": [
     {
+      "key": "10.2139/ssrn.7656103",
+      "bibtex_key": "kazakov2026cartography-guided-adaptive-replay-for-r",
+      "title": "Cartography-guided adaptive replay for robust reinforcement learning in nonlinear engineering control systems",
+      "year": 2026,
+      "type": "preprint",
+      "entry_type": "misc",
+      "category": "publication",
+      "venue": "",
+      "doi": "10.2139/ssrn.7656103",
+      "url": "http://dx.doi.org/10.2139/ssrn.7656103",
+      "authors": [
+        {
+          "given": "Yuri",
+          "family": "Kazakov",
+          "full": "Yuri Kazakov"
+        },
+        {
+          "given": "Leonid",
+          "family": "Savin",
+          "full": "Leonid Savin"
+        },
+        {
+          "given": "Alexei",
+          "family": "Kornaev",
+          "full": "Alexei Kornaev"
+        }
+      ],
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "note": "",
+      "code": "",
+      "project": "",
+      "slides": "",
+      "dataset": "",
+      "preprint": "",
+      "paper": "https://doi.org/10.2139/ssrn.7656103"
+    },
+    {
       "key": "salloum2026diversity",
       "bibtex_key": "salloum2026diversity",
       "title": "Diversity-Aware Adaptive Collocation for Physics-Informed Neural Networks via Sparse QUBO Optimization and Hybrid Coresets",
