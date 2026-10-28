@@ -36,6 +36,7 @@ Current affiliations:
 - Publications: publications synchronized from ORCID and exported to BibTeX
 - Research: current directions and project summaries
 - Teaching: courses, materials, and supervision
+- Talks: presentations with short, stable addresses
 - Software: repositories, datasets, and demos
 - CV: downloadable CV
 - Contact: professional links and contact information
@@ -67,6 +68,14 @@ To publish:
 4. Push changes to the default branch.
 
 For the user site at `https://avkornaev.github.io`, the repository should remain named `avkornaev.github.io`.
+
+## Talks
+
+The catalogue is at `/talks/`, with entries in `_data/talks.yml`. Each talk has a small page under `talks/<short-title>/` using `_layouts/talk.html` and a `talk_source` address. The shared layout displays the source deck full-screen and preserves keyboard navigation and slide deep links under the personal-site address.
+
+Current talk: https://avkornaev.github.io/talks/long-paths-vla/
+
+The source deck and PDFs are built by the research repository's publishing workflow. Pushing slide-source changes there updates the presentation at the short address automatically; there is no second copy to keep synchronized. Manual update/status: https://github.com/avkornaev/PE-VLA_2026/actions/workflows/publish-presentations.yml
 
 ## Publication maintenance
 

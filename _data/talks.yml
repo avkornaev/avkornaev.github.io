@@ -1,0 +1,8 @@
+- title: Long Paths and Shortcuts to Understanding VLA
+  subtitle: Experiments in Planning, Reward Design, and Transfer Across Robots
+  event: Physical AI & VLM Academic Exchange Day
+  date: 2026-10-30
+  url: /talks/long-paths-vla/
+  pdf: https://avkornaev.github.io/PE-VLA_2026/long-paths-vla/presentation.pdf
+  full_pdf: https://avkornaev.github.io/PE-VLA_2026/long-paths-vla/full.pdf
+  update_url: https://github.com/avkornaev/PE-VLA_2026/actions/workflows/publish-presentations.yml

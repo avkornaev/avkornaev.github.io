@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }}</title>
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <style>
+    html, body {margin:0;width:100%;height:100%;overflow:hidden;background:white;}
+    iframe {display:block;width:100%;height:100%;border:0;}
+  </style>
+</head>
+<body>
+  <iframe id="talk" title="{{ page.title | escape }}" src="{{ page.talk_source | escape }}" allow="fullscreen" allowfullscreen></iframe>
+  <noscript><p><a href="{{ page.talk_source | escape }}">Open the presentation</a></p></noscript>
+  <script>
+    const frame = document.getElementById('talk');
+    if (location.hash) frame.src = frame.src.replace(/#.*$/, '') + location.hash;
+
+    frame.addEventListener('load', function () {
+      // Presentation sources on this GitHub Pages domain share the same origin.
+      let deck;
+      try { deck = frame.contentWindow.Reveal; } catch (_) { return; }
+      if (!deck) return;
+
+      function syncAddress() {
+        const id = deck.getCurrentSlide()?.id;
+        if (!id) return;
+        const hash = id === 'title' ? '' : '#/' + id;
+        history.replaceState(history.state, '', location.pathname + location.search + hash);
+      }
+      function connect() {
+        syncAddress();
+        deck.on('slidechanged', syncAddress);
+        frame.contentWindow.focus();
+      }
+      if (deck.isReady()) connect(); else deck.on('ready', connect);
+    });
+
+    window.addEventListener('hashchange', function () {
+      try {
+        if (location.hash) frame.contentWindow.location.hash = location.hash;
+        else frame.contentWindow.Reveal?.slide(0);
+      } catch (_) { /* Cross-origin sources still work as full-screen embeds. */ }
+    });
+  </script>
+</body>
+</html>
